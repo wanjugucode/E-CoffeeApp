@@ -12,8 +12,15 @@ margin: 0;
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
+    width: max-content;
   
 }
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
 .nav a {
     color: inherit;
     text-decoration: none;
