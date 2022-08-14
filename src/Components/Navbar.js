@@ -1,6 +1,6 @@
 function Navbar() {
     return <nav className="nav">
-        <a href="/" className="site-title">Coffee <br/>Charm</a>
+        <a href="/" className="site-title">Coffee Charm</a>
         <ul>
             <li>
                 <a href="/home">Home</a>
